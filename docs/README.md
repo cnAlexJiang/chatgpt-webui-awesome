@@ -111,8 +111,10 @@ PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最�
 
 
 ## [ChatGPT 中文调教指南](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
+
 - 官网 https://chatguide.plexpt.com/
-<img src="http://rsw9gdz0y.hn-bkt.clouddn.com/images/chatguide.plexpt.com.png?e=1681121871&token=VFxf1rTzAnda3m12F6mCk80h9HvB1n8C3g2ZlP1v:JjkRQNn-g5iqPhGUKGa55OoVmAY="/>
+
+<img src="http://rsw9gdz0y.hn-bkt.clouddn.com/images/chatguide.plexpt.com.png?e=1681211083&token=VFxf1rTzAnda3m12F6mCk80h9HvB1n8C3g2ZlP1v:Q98qhd9tj2AqHkY3paumgDC0Fvs="/>
 
 # 部署相关
 ## 解决网络问题
