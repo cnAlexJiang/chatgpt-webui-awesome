@@ -1,0 +1,3 @@
+[submodule "ssr/ChatGPT-Next-Web"]
+	path = ssr/ChatGPT-Next-Web
+	url = git@github.com:Yidadaa/ChatGPT-Next-Web.git
