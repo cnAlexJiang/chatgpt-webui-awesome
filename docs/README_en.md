@@ -22,10 +22,6 @@ English - [中文](./README.md)
 
 ## next方案
 
-[ChatGPT Next Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
-
-  一键免费部署你的私人 ChatGPT 网页应用。
-<img src="https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/docs/images/cover.png"/>
 
 
 ## astro方案
