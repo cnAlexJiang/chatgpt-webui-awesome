@@ -7,19 +7,40 @@ chatgpt full stack solution
 中文 - [English](./README_en.md)
 
 
-# 开始更新-聊天UI方案
+# 持续更新中...
+# 聊天UI方案
 
 # SPA 
 ## vue2
+### [ChatGPT_JCM](https://github.com/202252197/ChatGPT_JCM)
+> OpenAI管理界面，聚合了OpenAI的所有接口进行界面操作(所有模型、图片、音频、微调、文件)等，支持Markdown格式(公式、图表，表格)等
+
+<img src="https://camo.githubusercontent.com/0885e558cbcd4a05e47bcb678caf85d97c411edede5c352f9a0a7c02e0445c1d/68747470733a2f2f692e3332383838382e78797a2f323032332f30342f30392f69634d3775502e706e67"/>
+
+<img src="https://camo.githubusercontent.com/9a72fad3d10ea885a68bac7e766b8a53dfeeae08a42290275b0514a2a0642264/68747470733a2f2f692e3332383838382e78797a2f323032332f30342f30392f69634d4b657a2e706e67"/>
 
 
 ## vue3
+### [ChatGPT Web](https://github.com/Chanzhaoyu/chatgpt-web)
+> 用 Express 和 Vue3 搭建的 ChatGPT 演示网页
+
+<img src="https://github.com/Chanzhaoyu/chatgpt-web/raw/main/docs/c1.png"/>
+
+#### 功能
+[✓] 双模型
+[✓] 多会话储存和上下文逻辑
+[✓] 对代码等消息类型的格式化美化处理
+[✓] 访问权限控制
+[✓] 数据导入、导出
+[✓] 保存消息到本地图片
+[✓] 界面多语言
+[✓] 界面主题
 
 
-## react
  
-# SSR
-## next
+# SSR方案
+>SSR是服务器端渲染（Server-Side Rendering）的简称。它是一种技术，可以将服务器端生成的 HTML 直接返回给客户端，而不是在客户端执行 JavaScript 代码生成 HTML。与客户端渲染相比，SSR 可以提高页面的首次加载速度、SEO 的效果以及降低首屏渲染成本等优势。SSR 的主要实现方式是使用 Node.js 或其他后端技术来渲染网站或应用程序的 HTML 和数据，以便在服务器发送给客户端之前先准备好所有内容。
+## 基于next
 > Next.js是一个基于React框架的轻量级服务端渲染(SSR)框架，它提供了一些丰富的特性，如代码分割、静态文件导出、数据预取等等，使得开发React应用更加高效。
 > Next.js还提供了极佳的开发体验，支持热重载(Hot-reload)和实时编译，可以让你在开发React应用时无需充斥大量的配置。
 > 总的来说，Next.js 是用于简化 服务端渲染(SSR) 和 静态网站生成(SSG) 的 React 应用程序的开发和部署的工具。 它为开发人员提供了服务器渲染，静态导出等功能，从而实现更好的性能、SEO等。
@@ -28,10 +49,18 @@ chatgpt full stack solution
 ### [ChatGPT Next Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
 
   一键免费部署你的私人 ChatGPT 网页应用。
+  体验相当好的ui
 <img src="https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/docs/images/cover.png"/>
+#### 主要功能
+- 精心设计的 UI，响应式设计，支持深色模式，支持 PWA
+- 极快的首屏加载速度（~100kb）
+- 海量的内置 prompt 列表，来自中文和英文
+- 自动压缩上下文聊天记录，在节省 Token 的同时支持超长对话
+- 一键导出聊天记录，完整的 Markdown 支持
+- 拥有自己的域名？好上加好，绑定后即可在任何地方无障碍快速访问
 
 
-## astro方案
+## 基于astro
 >Astro是一个全新的现代化的静态网站生成器，它采用了现代化的开发框架和技术，如React、Vue、Svelte等，并提供了一些预设的模板和组件，以简化开发过程。
 >Astro采用完全静态的生成模式，可以在本地生成和预览站点，也可以在部署到任何支持静态站点托管的平台上。它提供了界面简洁、易于使用的开发体验，开发者可以使用它来构建各种类型的网站，包括静态网页、博客、电子商务网站等等。
 
@@ -39,7 +68,14 @@ chatgpt full stack solution
 一个基于 OpenAI GPT-3.5 Turbo API 的 demo。
 <img src="https://camo.githubusercontent.com/87fde0adf3cbf79cb77a0cfbf586618e6772aabb02775f1d1feef4177227ab91/68747470733a2f2f63646e2e737461746963616c792e636f6d2f67682f797a683939303931382f737461746963406d61737465722f636861742d6c6f676f2e77656270"/>
 
-https://github.com/ddiu8081/chatgpt-demo
+
+### [ChatGPT-Vercel](https://github.com/ourongxing/chatgpt-vercel)
+
+> 优雅而强大。由 OpenAI 和 Vercel 提供支持。
+> 重点 真的优雅而强大 亲自部署使用
+ 
+
+<img src="https://github.com/ourongxing/chatgpt-vercel/blob/main/assets/preview-light.png?raw=true"/>
 
 ### [QA power by gpt](https://github.com/gcloudlab/QA)
 部署在Vercel的ChatGPT镜像站点（gpt-3.5-turbo）
@@ -57,7 +93,7 @@ PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最�
 
 # weixin bot
 
-## php方案
+## 基于php
   [chatgpt-wechat-personal](https://github.com/dirk1983/chatgpt-wechat-personal)
   实现原理：
     腾讯服务器推送用户消息过来时，调用OpenAI的API接口，并将用户的问题和返回的结果存到日志文件中。
@@ -76,4 +112,9 @@ PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最�
 
 ## [ChatGPT 中文调教指南](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
 - 官网 https://chatguide.plexpt.com/
-<img src="./images/chatguide.plexpt.com.png"/>
+<img src="http://rsw9gdz0y.hn-bkt.clouddn.com/images/chatguide.plexpt.com.png?e=1681121871&token=VFxf1rTzAnda3m12F6mCk80h9HvB1n8C3g2ZlP1v:JjkRQNn-g5iqPhGUKGa55OoVmAY="/>
+
+# 部署相关
+## 解决网络问题
+### [chatgptProxyAPI](https://github.com/x-dr/chatgptProxyAPI)
+>使用cloudflare 搭建免费的 OpenAI api代理 ，解决网络无法访问问题。支持 Stream 流式输出
