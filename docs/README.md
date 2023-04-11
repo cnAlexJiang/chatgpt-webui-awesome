@@ -11,6 +11,7 @@ chatgpt full stack solution
 # 聊天UI方案
 
 # SPA 
+> SPA的全称是Single-Page Application，也就是单页应用程序。它是一种Web应用程序的开发模式，不同于传统的多页面Web应用程序，在SPA中整个应用程序只有一个HTML页面，其余页面内容通过JavaScript动态替换加载，实现无刷新加载页面，提高了应用程序的性能和用户体验。
 ## vue2
 ### [ChatGPT_JCM](https://github.com/202252197/ChatGPT_JCM)
 > OpenAI管理界面，聚合了OpenAI的所有接口进行界面操作(所有模型、图片、音频、微调、文件)等，支持Markdown格式(公式、图表，表格)等
@@ -27,14 +28,14 @@ chatgpt full stack solution
 <img src="https://github.com/Chanzhaoyu/chatgpt-web/raw/main/docs/c1.png"/>
 
 #### 功能
-[✓] 双模型
-[✓] 多会话储存和上下文逻辑
-[✓] 对代码等消息类型的格式化美化处理
-[✓] 访问权限控制
-[✓] 数据导入、导出
-[✓] 保存消息到本地图片
-[✓] 界面多语言
-[✓] 界面主题
+- [✓] 双模型
+- [✓] 多会话储存和上下文逻辑
+- [✓] 对代码等消息类型的格式化美化处理
+- [✓] 访问权限控制
+- [✓] 数据导入、导出
+- [✓] 保存消息到本地图片
+- [✓] 界面多语言
+- [✓] 界面主题
 
 
  
@@ -83,11 +84,22 @@ chatgpt full stack solution
 支持缓存会话
 <img src="https://raw.githubusercontent.com/gcloudlab/QA/main/web.png"/>
 
-## php方案
+## 基于nuxt
+> Nuxt.js是一个基于Vue.js的服务端渲染的应用框架，它有助于构建大型、高度可维护的Vue.js应用程序。Nuxt.js提供了许多有用的特性，例如代码分割、静态生成、预渲染和服务器端渲染等，可以让你构建现代Web应用程序，提高应用程序性能和SEO优化效果。通过Nuxt.js，开发人员可以使用Vue.js框架来快速构建高质量的Web应用，并且无需担心复杂的设置和配置。
+### [chatgpt-ui](https://github.com/WongSaang/chatgpt-ui)
+
+关于 ChatGPT Web 客户端，支持多用户、多数据库连接用于持久数据存储，支持 i18n。提供Docker镜像和快速部署脚本。
+
+<video autoplay loop muted playsinline  src="https://user-images.githubusercontent.com/46235412/227156264-ca17ab17-999b-414f-ab06-3f75b5235bfe.mp4"></video>
+
+
+## 基于php
 ### [chatpht power by php](https://user-images.githubusercontent.com/5563148/224522389-f60e3047-c0e6-49cd-bee7-80feaf2c86a4.png)
 
-PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最新的gpt-3.5-turbo模型。 采用Stream流模式通信，一边生成一边输出，响应速度超过官网
+PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最新的gpt-3.5-turbo模型。 采用Stream流模式通信，一边生成一边输出 
 <img src="https://user-images.githubusercontent.com/5563148/224522389-f60e3047-c0e6-49cd-bee7-80feaf2c86a4.png"/>
+
+
 
 # client 客户端
 
