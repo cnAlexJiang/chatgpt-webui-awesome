@@ -1,3 +1,6 @@
 [submodule "ssr/ChatGPT-Next-Web"]
 	path = ssr/ChatGPT-Next-Web
 	url = git@github.com:Yidadaa/ChatGPT-Next-Web.git
+[submodule "spa/vue2/ChatGPT_JCM"]
+	path = spa/vue2/ChatGPT_JCM
+	url = git@github.com:202252197/ChatGPT_JCM.git
