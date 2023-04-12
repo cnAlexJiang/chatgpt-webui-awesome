@@ -120,6 +120,28 @@ PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最�
 
 # weixin bot
 
+## 基于python
+ ###  [chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat)
+>ChatGPT近期以强大的对话和信息整合能力风靡全网，可以写代码、改论文、讲故事，几乎无所不能，这让人不禁有个大胆的想法，能否用他的对话模型把我们的微信打造成一个智能机器人，可以在与好友对话中给出意想不到的回应，而且再也不用担心女朋友影响我们 打游戏 工作了。
+
+基于ChatGPT的微信聊天机器人，通过 ChatGPT 接口生成对话内容，使用 itchat 实现微信消息的接收和自动回复。已实现的特性如下：
+
+<img src="https://github.com/zhayujie/chatgpt-on-wechat/raw/master/docs/images/single-chat-sample.jpg"/>
+
+<img src="https://github.com/zhayujie/chatgpt-on-wechat/raw/master/docs/images/image-create-sample.jpg"/>
+
+[x] 文本对话： 接收私聊及群组中的微信消息，使用ChatGPT生成回复内容，完成自动回复
+[x] 规则定制化： 支持私聊中按指定规则触发自动回复，支持对群组设置自动回复白名单
+[x] 图片生成： 支持根据描述生成图片，支持图片修复
+[x] 上下文记忆：支持多轮对话记忆，且为每个好友维护独立的上下会话
+[x] 语音识别： 支持接收和处理语音消息，通过文字或语音回复
+[x] 插件化： 支持个性化插件，提供角色扮演、文字冒险、与操作系统交互、访问网络数据等能力
+
+
+## 基于node 
+
+### [wechat-chatgpt](https://github.com/fuergaosi233/wechat-chatgpt)
+
 ## 基于php
   [chatgpt-wechat-personal](https://github.com/dirk1983/chatgpt-wechat-personal)
   实现原理：
@@ -132,6 +154,13 @@ PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最�
 
 # prompts 相关
 ## [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
+
+使用 WeChat 和 ChatGPT 进行互动：
+基于 wechaty 和 Official API 在微信中使用 ChatGPT
+支持多轮对话
+支持命令设置
+部署和配置选项：
+ 
 
 - 官网 https://prompts.chat/
 <video autoplay loop muted playsinline src="https://user-images.githubusercontent.com/196477/207992596-6846398c-9ee7-4d7b-8fbe-b7c9e6daad23.mov"></video>
