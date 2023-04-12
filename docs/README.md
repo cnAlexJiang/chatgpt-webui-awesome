@@ -101,7 +101,22 @@ PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最�
 
 
 
-# client 客户端
+# desktop 桌面端
+## [基于tauri方案](https://github.com/tauri-apps/tauri)
+> 关于 使用 Web 前端构建更小、更快和更安全的桌面应用程序
+### [ChatGPT](https://github.com/lencx/ChatGPT)
+  <img src="https://github.com/lencx/ChatGPT/raw/main/assets/chatgpt-cmd.png">
+  
+  - 跨平台: `macOS` `Linux` `Windows`
+  - 导出 ChatGPT 聊天记录 (支持 PNG, PDF 和生成分享链接)
+  - 主窗口和系统托盘支持自定义 URL，将任意网站包装成一个桌面应用
+  - 应用自动升级通知
+  - 丰富的快捷键
+  - 系统托盘悬浮窗
+  - 应用菜单功能强大
+  - 支持斜杠命令及其配置（可手动配置或从文件同步 [#55](https://github.com/lencx/ChatGPT/issues/55)）
+  - 自定义全局快捷键 ([#108](https://github.com/lencx/ChatGPT/issues/108))
+  - 划词搜索 ([#122](https://github.com/lencx/ChatGPT/issues/122) 鼠标选中文本，不超过 400 个字符)：应用使用 Tauri 构建，因其安全限制，会导致部分操作按钮无效，建议前往浏览器操作。
 
 # weixin bot
 
