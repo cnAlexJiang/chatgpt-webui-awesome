@@ -176,3 +176,9 @@ PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最�
 ## 解决网络问题
 ### [chatgptProxyAPI](https://github.com/x-dr/chatgptProxyAPI)
 >使用cloudflare 搭建免费的 OpenAI api代理 ，解决网络无法访问问题。支持 Stream 流式输出
+
+## 浏览器插件
+
+### [chathub](https://github.com/chathub-dev/chathub)
+All-in-one chatbot client
+<img src="https://github.com/chathub-dev/chathub/raw/main/screenshots/extension.png?raw=true" />
