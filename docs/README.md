@@ -118,7 +118,7 @@ PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最�
   - 自定义全局快捷键 ([#108](https://github.com/lencx/ChatGPT/issues/108))
   - 划词搜索 ([#122](https://github.com/lencx/ChatGPT/issues/122) 鼠标选中文本，不超过 400 个字符)：应用使用 Tauri 构建，因其安全限制，会导致部分操作按钮无效，建议前往浏览器操作。
 
-# weixin bot
+# weixin bot 微信聊天机器人
 
 ## 基于python
  ###  [chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat)
