@@ -182,3 +182,11 @@ PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最�
 ### [chathub](https://github.com/chathub-dev/chathub)
 All-in-one chatbot client
 <img src="https://github.com/chathub-dev/chathub/raw/main/screenshots/extension.png?raw=true" />
+
+
+
+# 服务端
+## LLM  接口管理 & 分发系统
+
+### [one-api](https://github.com/songquanpeng/one-api?tab=readme-ov-file)
+![alt text](image.png)
